@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NateBQuill | Notes Archive</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="layout">
+        <header class="header">
+            <div class="header-top">
+                <img src="NateBQuill.png" alt="NateBQuill" class="logo">
+                <div class="article-header">
+                    <a href="notes.html">/notes archive</a>
+                </div>
+                <img src="walk cycle.png" alt="Walking animation" class="walk-cycle">
+            </div>
+            <div class="double-line"></div>
+        </header>
+
+        <nav class="sidebar">
+            <a href="index.html">Home</a>
+            <a href="writing.html">Writing</a>
+            <a href="#art">Art</a>
+            <a href="notes.html">Notes</a>
+            <a href="#funnies">Funnies</a>
+            <a href="#socials">Socials</a>
+            <div class="summary">
+                <p>This website hosts everything I've been working on. Between writing, art, and other small
+                    projects I have a lot to share.</p>
+            </div>
+        </nav>
+
+        <main class="content">
+            <div class="notes-list">
+                <!-- Note with a cover image -->
+                <a href="notes/first-note.html" class="note-card">
+                    <img src="notes/images/first-note-cover.jpg" alt="" class="note-cover">
+                    <div class="note-details">
+                        <h2 class="note-title">A Note With a Cover</h2>
+                        <p class="note-date"><time datetime="2026-07-24">24/07/2026</time></p>
+                        <p class="note-description">A short description of the note goes here. Keep it to one or two
+                            sentences.</p>
+                    </div>
+                </a>
+
+                <!-- Note without a cover image: remove this placeholder entirely if you want the text full-width -->
+                <a href="notes/second-note.html" class="note-card">
+                    <div class="note-cover-placeholder" aria-hidden="true">No cover image</div>
+                    <div class="note-details">
+                        <h2 class="note-title">A Note Without a Cover</h2>
+                        <p class="note-date"><time datetime="2026-07-18">18/07/2026</time></p>
+                        <p class="note-description">This example shows how an entry can still keep the same alignment
+                            without an image.</p>
+                    </div>
+                </a>
+
+                <!-- Description is optional -->
+                <a href="notes/third-note.html" class="note-card">
+                    <img src="notes/images/third-note-cover.jpg" alt="" class="note-cover">
+                    <div class="note-details">
+                        <h2 class="note-title">A Note With No Description</h2>
+                        <p class="note-date"><time datetime="2026-07-05">05/07/2026</time></p>
+                    </div>
+                </a>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
