@@ -133,6 +133,11 @@ div.content {
     grid-column: 1;
     grid-row: 2;
 }
+.recent-work img {
+    width: 75%;
+    height: 75%;
+    margin: auto; 
+}
 
 .cool-stuff {
     grid-column: 3;
