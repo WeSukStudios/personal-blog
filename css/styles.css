@@ -63,8 +63,8 @@ body {
 
 .double-line {
     width: 100%;
-    border-top: 3px solid lightslategray;
-    border-bottom: 3px solid lightslategray;
+    border-top: 3px solid #6b4fa3;
+    border-bottom: 3px solid #6b4fa3;
     height: 6px;
     margin-top: 0px;
 }
@@ -130,7 +130,7 @@ div.content {
 }
 
 .recent-work {
-    grid-column: 1;
+    grid-column: 1 / span 3;
     grid-row: 2;
 }
 .recent-work img {
@@ -141,16 +141,16 @@ div.content {
 
 .cool-stuff {
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 4;
 }
 
 .current-thoughts {
-    grid-column: 1 / span 3;
+    grid-column: 1;
     grid-row: 4;
 }
 
 .long-vertical-line {
-    grid-row: 1 / span 2;
+    grid-row: 3 / span 4;
     grid-column: 2;
     display: block;
     width: 1px;
@@ -172,6 +172,7 @@ div.content {
 
 .cool-title {
     grid-column: 3;
+    grid-row: 3;
 }
 
 .current-title {
@@ -271,6 +272,22 @@ figure img {
 .article-date {
     margin-top: 0px;
     margin-left: 8px;
+}
+
+/* Socials page stuff */
+.social-button {
+    display: block;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+.socials-caption {
+    display: inline-flex;
+    background-color: #6b4fa3;
+    color: white;
+    font-style: bold;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 /* ALL THE ARCHIVE THINGS */
