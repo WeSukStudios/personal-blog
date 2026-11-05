@@ -148,7 +148,12 @@ div.content {
     grid-column: 1;
     grid-row: 4;
 }
-
+.current-thoughts .wide-thought img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
 .column-wide {
     display: grid;
     grid-template-columns: 1fr;
